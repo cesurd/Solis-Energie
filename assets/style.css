@@ -117,7 +117,7 @@ p { margin: 0 0 1em; }
   background-size: cover; background-position: center;
 }
 .hero .eyebrow, .hero h1, .hero__lead { text-shadow: 0 2px 14px rgba(0,0,0,.45); }
-.hero__inner { padding: 84px 0 92px; max-width: 760px; }
+.hero__inner { padding-top: 84px; padding-bottom: 92px; max-width: 760px; }
 .hero h1 { color: #fff; margin: 6px 0 18px; }
 .hero .h1-main { display: block; font-size: clamp(2.1rem, 5vw, 3.1rem); }
 .hero .h1-sub { display: block; font-size: clamp(1.02rem, 2.1vw, 1.32rem); font-weight: 500; color: #d7f0e3; margin-top: 10px; letter-spacing: 0; }
@@ -316,7 +316,7 @@ tbody tr:last-child td { border-bottom: 0; }
   .lead-form { grid-template-columns: 1fr; }
   .section { padding: 52px 0; }
   .hero { background: linear-gradient(180deg, rgba(19,36,58,.78) 0%, rgba(19,36,58,.62) 55%, rgba(19,36,58,.56) 100%), url('hero-solis.jpg'); background-size: cover; background-position: center; }
-  .hero__inner { padding: 60px 0 68px; }
+  .hero__inner { padding-top: 60px; padding-bottom: 68px; }
   .footer-bottom { flex-direction: column; }
   .sticky-cta { display: grid; grid-template-columns: 1fr 1fr; position: fixed; bottom: 0; left: 0; right: 0; z-index: 200; box-shadow: 0 -4px 20px rgba(0,0,0,.18); }
   body { padding-bottom: 56px; }
